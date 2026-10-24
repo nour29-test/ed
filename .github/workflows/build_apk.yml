@@ -25,9 +25,6 @@ jobs:
           channel: 'stable'
           cache: true
 
-      - name: Create missing platform wrapper files if needed
-        run: flutter create . --project-name smart_teacher_app --org com.smartteacher.app
-
       - name: Install Flutter Dependencies
         run: flutter pub get
 
