@@ -1,0 +1,43 @@
+name: app_edu_flutter
+description: "نظام إدارة المعلم الذكي - تطبيق إدارة الطلاب والمجموعات والحصص والمصروفات"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Database
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Typography & UI
+  google_fonts: ^6.2.1
+
+  # Communication & WhatsApp
+  url_launcher: ^6.3.0
+
+  # Backup & Sharing
+  share_plus: ^10.0.0
+  file_picker: ^8.0.0
+
+  # Utilities
+  intl: ^0.20.3
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
